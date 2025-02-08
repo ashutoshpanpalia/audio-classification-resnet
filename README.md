@@ -39,8 +39,7 @@ The project applies **three different training strategies** to a **ResNet-50 mod
 - **Fine-tuning only the first and last layers** has training efficiency but comes with a massive trade-off in performance.
 - **Training from scratch** performs better than fine-tuning only the first and last layer, but never out performs the training which starts with pre-trained weights. 
 
-This work supports the idea that **CNNs trained on images can be successfully applied to non-visual domains** like accelerometer data, broadening the scope of transfer learning in deep learning applications. The results also re-iterates the findings by Palanisamy et al. that for a given standard model using pretrained
-weights is better than using randomly initialized weights.
+This work supports the idea that **CNNs trained on images can be successfully applied to non-visual domains** like accelerometer data, broadening the scope of transfer learning in deep learning applications. The results also re-iterates the findings by Palanisamy et al. that for a given standard model using **pretrained weights is better than using randomly initialized weights.**
 
 ---
 
